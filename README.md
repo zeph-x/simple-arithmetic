@@ -1,7 +1,7 @@
 # Backend Stage 1 Task
 
 
-> [Preview deployed API 🚀](https://basic-get-req.herokuapp.com/) 
+> [Preview deployed API 🚀](https://basic-arithmetic.herokuapp.com/calculate) 
 
 
 
@@ -21,7 +21,7 @@
 **Clone the repo**
 
 ```
-$ git clone https://github.com/zeph-x/simple_user_response/
+$ git clone https://github.com/zeph-x/simple-arithmetic
 ```
 
 **Install dependencies**
