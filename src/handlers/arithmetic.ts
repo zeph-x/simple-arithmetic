@@ -37,9 +37,9 @@ class Arithmetic extends BaseHandler {
 
             const getOperator = (splitWords: string | string[]) => {
                 let operator = ''
-                if (splitWords.includes('add') || splitWords.includes('addition')) { operator = '+' }
-                if (splitWords.includes('subtract') || splitWords.includes('addition')) { operator = '-' }
-                if (splitWords.includes('multiply') || splitWords.includes('subtraction')) { operator = '*' }
+                if (splitWords.includes('add') || splitWords.includes('addition') || splitWords.includes('sum')) { operator = '+' }
+                if (splitWords.includes('subtract') || splitWords.includes('subtraction') || splitWords.includes('minus')) { operator = '-' }
+                if (splitWords.includes('multiply') || splitWords.includes('multiplication') || splitWords.includes('product')) { operator = '*' }
                 return operator
             }
 
